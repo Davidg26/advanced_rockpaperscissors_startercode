@@ -20,14 +20,26 @@
 
 //GLOBAL VARIABLES
 var userChoice= "";
-var computerChoice="";
+var computerChoices="";
 var winner="";
 var choices=["rock", "paper", "scissors"];
 
-
+console.log(choices[Math.floor(Math.random()*choices.length)]);
+if (computerChoices === "rock") { 
+        
+}
+else if (computerChoices === "paper"){
+        
+}
+else if (computerChoices === "scissors"){
+        
+}
 //FUNCTIONS
 
 
 
 // DOCUMENT READY FUNCTION
-
+$(document).ready(function(){
+        
+      $("body").append("<p>...</p>")
+})
